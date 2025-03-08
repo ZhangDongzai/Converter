@@ -23,12 +23,12 @@ def convert(entry: tk.Entry) -> None:
 
 def main() -> None:
     window = tk.Tk()
-    window.title("音频格式转换器")
-    window.geometry("300x100")
+    window.title("音频格式转换器 wav to flac")
+    window.geometry("500x100")
 
     frame = tk.Frame()
 
-    file_name_entry = tk.Entry(master=frame, width=30)
+    file_name_entry = tk.Entry(master=frame, width=50)
     file_choose_button = tk.Button(master=frame, text="选择文件",
                                    command=lambda: choose_file(file_name_entry))
     convert_button = tk.Button(master=frame, text="转换", 
