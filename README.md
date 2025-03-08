@@ -1,2 +1,8 @@
 # Music File Converter <br/> 音频文件转换器
-支持 wav 转换为 flac
+支持互相转换 `.wav` `.flac` `.mp3` `.aac` `.wma` `.ogg` `.ape` `.dsf` `.dff`
+
+## Requirements 环境要求
+`python3` 和 `pip`
+```shell
+pip install -r requirements.txt
+```
